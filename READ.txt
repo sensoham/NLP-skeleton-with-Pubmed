@@ -1,0 +1,12 @@
+This is an under construction version of core NLP on the pubmed Entrez database.
+It contains a lot of redundancies and unpythonic code that will be removed. But somehow this functions.
+On running, the processes will generate a lot of csv's and image files. Please do not delete them while the scripts are running since the processes are interdependent.
+
+
+To use, do the following (after setting the pathways):
+1. change the variable 'term' in the script Querrying_biopython_api_NLP.py to whatever you wish to be querried and summarized. (save and close script)
+2. run the script run_all_scripts.py
+
+Feel free to imporve, modify or extend.
+
+Regards.
